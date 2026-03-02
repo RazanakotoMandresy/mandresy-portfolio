@@ -13,10 +13,10 @@ permissions:
   pages: write
   id-token: write
 
-# Un seul déploiement à la fois ; annule les déploiements en attente
+# Un seul déploiement à la fois ; attend que le précédent se termine (ne l'annule pas)
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
