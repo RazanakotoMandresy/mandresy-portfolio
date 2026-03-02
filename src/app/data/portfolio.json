@@ -1,0 +1,249 @@
+{
+  "personal": {
+    "name": "Mandresy",
+    "fullName": "Razanakoto Andriamelintsoa Diary",
+    "title": "DevOps | DevSecOps",
+    "location": "Antananarivo, Madagascar",
+    "email": "razanakotomandresy@gmail.com",
+    "phone": "+261 34 718 0577",
+    "phoneTel": "+261347180577",
+    "phone2": "+261 33 282 6408",
+    "github": "https://github.com/RazanakotoMandresy",
+    "githubPro": "https://github.com/RazanakotoMandresy-pro",
+    "linkedin": "https://www.linkedin.com/in/razanakoto-mandresy-0227b22a6/",
+    "stats": [
+      { "value": "20+", "label_en": "Technologies", "label_fr": "Technologies" },
+      { "value": "3",   "label_en": "Languages",    "label_fr": "Langues" }
+    ]
+  },
+
+  "spokenLanguages": [
+    { "name_en": "Malagasy", "name_fr": "Malgache", "level_en": "Native",       "level_fr": "Natif",         "percent": 100, "flag": "🇲🇬" },
+    { "name_en": "French",   "name_fr": "Français",  "level_en": "Advanced",     "level_fr": "Avancé",        "percent": 85,  "flag": "🇫🇷" },
+    { "name_en": "English",  "name_fr": "Anglais",   "level_en": "Intermediate", "level_fr": "Intermédiaire", "percent": 60,  "flag": "🇬🇧" }
+  ],
+
+  "skillCategories": [
+    {
+      "name": "Cloud & Infrastructure",
+      "icon": "☁️",
+      "color": "cyan",
+      "skills": [
+        { "name": "AWS",        "icon": "🟠" },
+        { "name": "AWS ECS",    "icon": "🐳" },
+        { "name": "AWS S3",     "icon": "🗄️" },
+        { "name": "CloudFront", "icon": "🌐" },
+        { "name": "VPC Peering","icon": "🔗" },
+        { "name": "Terraform",  "icon": "🟣" },
+        { "name": "Docker",     "icon": "🐋" },
+        { "name": "Podman",     "icon": "📦" },
+        { "name": "Kubernetes", "icon": "⚙️" }
+      ]
+    },
+    {
+      "name": "Development",
+      "icon": "💻",
+      "color": "violet",
+      "skills": [
+        { "name": "Golang",      "icon": "🐹" },
+        { "name": "TypeScript",  "icon": "🔷" },
+        { "name": "Python",      "icon": "🐍" },
+        { "name": "Shell Script","icon": "🖥️" },
+        { "name": "NestJS",      "icon": "🔴" },
+        { "name": "Angular",     "icon": "🔺" },
+        { "name": "ReactJS",     "icon": "⚛️" }
+      ]
+    },
+    {
+      "name": "CI/CD & Tools",
+      "icon": "🔄",
+      "color": "green",
+      "skills": [
+        { "name": "GitHub Actions",  "icon": "⚡" },
+        { "name": "ArgoCD",          "icon": "🚀" },
+        { "name": "Git",             "icon": "🌿" },
+        { "name": "Kong API Gateway","icon": "🦍" },
+        { "name": "Jira",            "icon": "📋" },
+        { "name": "Confluence",      "icon": "📝" }
+      ]
+    },
+    {
+      "name": "Databases",
+      "icon": "🗄️",
+      "color": "orange",
+      "skills": [
+        { "name": "PostgreSQL",   "icon": "🐘" },
+        { "name": "MongoDB",      "icon": "🍃" },
+        { "name": "EventstoreDB", "icon": "📚" },
+        { "name": "RabbitMQ",     "icon": "🐰" },
+        { "name": "Warpstream",   "icon": "🌊" }
+      ]
+    },
+    {
+      "name": "Architecture",
+      "icon": "🏗️",
+      "color": "pink",
+      "skills": [
+        { "name": "Microservices", "icon": "🔧" },
+        { "name": "Monorepo (Nx)", "icon": "📦" },
+        { "name": "DDD",           "icon": "🎯" },
+        { "name": "CQRS",          "icon": "↔️" },
+        { "name": "TDD",           "icon": "✅" },
+        { "name": "gRPC",          "icon": "⚡" },
+        { "name": "REST",          "icon": "🌐" }
+      ]
+    },
+    {
+      "name": "Observability",
+      "icon": "📊",
+      "color": "yellow",
+      "skills": [
+        { "name": "Grafana",    "icon": "📈" },
+        { "name": "Loki",       "icon": "📋" },
+        { "name": "Prometheus", "icon": "🔥" },
+        { "name": "LogQL",      "icon": "🔍" },
+        { "name": "PromQL",     "icon": "📊" },
+        { "name": "Sentry",     "icon": "🛡️" },
+        { "name": "Alerting",   "icon": "🚨" }
+      ]
+    }
+  ],
+
+  "experiences": [
+    {
+      "role_en": "DevOps Engineer",
+      "role_fr": "Ingénieur DevOps",
+      "company": "ITRAS Group – Orchis MG",
+      "period_en": "December 2024 – Present",
+      "period_fr": "Décembre 2024 – Présent",
+      "type_en": "Permanent",
+      "type_fr": "CDI",
+      "current": true,
+      "description_en": "Setup and management of AWS Cloud infrastructures (ECS, S3, CloudFront, VPC peering). Deployment of microservices with Terraform, GitHub Actions and ArgoCD. Full observability implementation with the LGTM stack (Grafana, Loki, Prometheus). Microservices architecture in Nx monorepo with DDD/CQRS.",
+      "description_fr": "Mise en place et gestion d'infrastructures Cloud AWS (ECS, S3, CloudFront, VPC peering). Déploiement de microservices avec Terraform, Github Actions et ArgoCD. Mise en œuvre de l'observabilité complète avec la stack LGTM (Grafana, Loki, Prometheus). Architecture microservices en monorepo Nx avec DDD/CQRS.",
+      "tags": ["AWS", "Terraform", "NestJS", "Angular", "GitHub Actions", "Grafana", "Kong", "RabbitMQ"]
+    },
+    {
+      "role_en": "Fullstack Developer Intern",
+      "role_fr": "Stagiaire Développeur Fullstack",
+      "company": "NosyTech",
+      "period_en": "February 2024 – July 2024",
+      "period_fr": "Février 2024 – Juillet 2024",
+      "type_en": "Internship",
+      "type_fr": "Stage",
+      "current": false,
+      "description_en": "Development of fullstack web applications using ReactJS for the frontend and Golang/TypeScript for the backend. Setup of CI/CD pipelines with GitHub Actions.",
+      "description_fr": "Développement d'applications web fullstack en utilisant ReactJS pour le frontend et Golang/TypeScript pour le backend. Mise en place de pipelines CI/CD avec GitHub Actions.",
+      "tags": ["ReactJS", "Golang", "TypeScript", "GitHub Actions", "Git"]
+    }
+  ],
+
+  "education": {
+    "degree_en": "Bachelor in Computer Science (L3) & DTS (L2)",
+    "degree_fr": "Licence en Informatique (L3) & DTS (L2)",
+    "school": "Institut Supérieur IS-IESI Anjanahary",
+    "period": "2021 – 2024",
+    "description_en": "Three years of higher education: algorithms and data structures, programming, and web development.",
+    "description_fr": "Trois ans d'études supérieures : algorithmes, structures de données, programmation et développement web."
+  },
+
+  "ui": {
+    "en": {
+      "navLinks": [
+        { "label": "Home",       "href": "hero" },
+        { "label": "About",      "href": "about" },
+        { "label": "Skills",     "href": "skills" },
+        { "label": "Experience", "href": "experiences" },
+        { "label": "Contact",    "href": "contact" }
+      ],
+      "taglines": [
+        "DevOps Engineer",
+        "DevSecOps Specialist",
+        "Cloud Architect",
+        "Infrastructure Automation"
+      ],
+      "bio": "I am a <strong class=\"text-slate-900 dark:text-white\">DevOps & DevSecOps</strong> engineer passionate about optimizing development cycles and securing infrastructures. With a strong technical background in Fullstack development (Golang/TypeScript), I help companies implement distributed architectures and manage Cloud infrastructures.",
+      "bio2": "With a <strong class=\"text-cyan-600 dark:text-cyan-400\">FinOps</strong> mindset, I strive to maximize performance while optimizing operational costs. I currently work at <strong class=\"text-violet-600 dark:text-violet-400\">ITRAS Group – Orchis MG</strong> where I manage complex AWS infrastructures and microservices architectures.",
+      "hero": {
+        "cta1": "Contact me",
+        "cta2": "See my journey",
+        "scrollLabel": "Scroll"
+      },
+      "about": {
+        "sectionTag": "01. About",
+        "title": "Who am I?"
+      },
+      "skills": {
+        "sectionTag": "02. Skills",
+        "title": "Tech stack",
+        "description": "A set of technologies mastered through real production projects."
+      },
+      "experience": {
+        "sectionTag": "03. Journey",
+        "title": "Experience & Education"
+      },
+      "contact": {
+        "sectionTag": "04. Contact",
+        "title": "Let's work together",
+        "description": "Whether you have a DevOps project, need a Cloud consultant, or simply want to talk — feel free to reach out. I'm always open to new opportunities.",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "linkedinLabel": "LinkedIn",
+        "githubLabel": "GitHub",
+        "readyTitle": "Ready to collaborate?",
+        "readyDesc": "Send me a message directly",
+        "emailButton": "Send an email"
+      },
+      "footer": "Built with ❤️ in Angular & TailwindCSS"
+    },
+
+    "fr": {
+      "navLinks": [
+        { "label": "Accueil",      "href": "hero" },
+        { "label": "À propos",     "href": "about" },
+        { "label": "Compétences",  "href": "skills" },
+        { "label": "Expériences",  "href": "experiences" },
+        { "label": "Contact",      "href": "contact" }
+      ],
+      "taglines": [
+        "Ingénieur DevOps",
+        "Spécialiste DevSecOps",
+        "Architecte Cloud",
+        "Automatisation d'Infrastructure"
+      ],
+      "bio": "Je suis <strong class=\"text-slate-900 dark:text-white\">DevOps & DevSecOps</strong> passionné par l'optimisation des cycles de développement et la sécurité des infrastructures. Fort d'une base technique solide en développement Fullstack (Golang/TypeScript), j'accompagne les entreprises dans la mise en place d'architectures distribuées et la gestion d'infrastructures Cloud.",
+      "bio2": "Orienté <strong class=\"text-cyan-600 dark:text-cyan-400\">FinOps</strong>, je m'efforce de maximiser la performance tout en optimisant les coûts opérationnels. Je travaille actuellement chez <strong class=\"text-violet-600 dark:text-violet-400\">ITRAS Group – Orchis MG</strong> où je gère des infrastructures AWS complexes et des architectures microservices.",
+      "hero": {
+        "cta1": "Me contacter",
+        "cta2": "Voir mon parcours",
+        "scrollLabel": "Défiler"
+      },
+      "about": {
+        "sectionTag": "01. À propos",
+        "title": "Qui suis-je ?"
+      },
+      "skills": {
+        "sectionTag": "02. Compétences",
+        "title": "Stack technique",
+        "description": "Un ensemble de technologies maîtrisées à travers des projets concrets en production."
+      },
+      "experience": {
+        "sectionTag": "03. Parcours",
+        "title": "Expériences & Formation"
+      },
+      "contact": {
+        "sectionTag": "04. Contact",
+        "title": "Travaillons ensemble",
+        "description": "Que vous ayez un projet DevOps, besoin d'un consultant Cloud, ou simplement envie d'échanger — n'hésitez pas à me contacter. Je suis toujours ouvert aux nouvelles opportunités.",
+        "emailLabel": "Email",
+        "phoneLabel": "Téléphone",
+        "linkedinLabel": "LinkedIn",
+        "githubLabel": "GitHub",
+        "readyTitle": "Prêt à collaborer ?",
+        "readyDesc": "Envoyez-moi un message directement",
+        "emailButton": "Envoyer un email"
+      },
+      "footer": "Construit avec ❤️ en Angular & TailwindCSS"
+    }
+  }
+}
