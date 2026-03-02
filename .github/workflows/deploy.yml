@@ -40,8 +40,7 @@ jobs:
 
       - name: Build
         working-directory: portfolio
-        # Remplace mandresy-portfolio par le nom exact de ton dépôt GitHub
-        run: npm run build -- --base-href /mandresy-portfolio/
+        run: npm run build -- --base-href /
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
